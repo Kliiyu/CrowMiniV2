@@ -800,4 +800,8 @@ F 3 "~" H 4100 1150 50  0001 C CNN
 	1    4100 1150
 	1    0    0    -1  
 $EndComp
+Text GLabel 7800 2200 1    50   Input ~ 0
+DN
+Text GLabel 7800 2300 3    50   Input ~ 0
+DP
 $EndSCHEMATC
