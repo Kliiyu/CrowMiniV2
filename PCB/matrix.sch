@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CrowMiniMk2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -14,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K1
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K1
 U 1 1 615A7A2E
 P 2400 2250
+AR Path="/615A7A2E" Ref="K1"  Part="1" 
+AR Path="/615A5371/615A7A2E" Ref="K1"  Part="1" 
 F 0 "K1" H 2400 2589 60  0000 C CNN
 F 1 "GRV" H 2400 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 2400 2250 60  0001 C CNN
@@ -45,9 +48,11 @@ Connection ~ 2700 2250
 Wire Wire Line
 	2050 2600 2850 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K2
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K2
 U 1 1 615AC8F3
 P 3200 2250
+AR Path="/615AC8F3" Ref="K2"  Part="1" 
+AR Path="/615A5371/615AC8F3" Ref="K2"  Part="1" 
 F 0 "K2" H 3200 2589 60  0000 C CNN
 F 1 "#1" H 3200 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3200 2250 60  0001 C CNN
@@ -77,9 +82,11 @@ Wire Wire Line
 	2850 2600 3650 2600
 Connection ~ 2850 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K3
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K3
 U 1 1 615ADE63
 P 4000 2250
+AR Path="/615ADE63" Ref="K3"  Part="1" 
+AR Path="/615A5371/615ADE63" Ref="K3"  Part="1" 
 F 0 "K3" H 4000 2589 60  0000 C CNN
 F 1 "#2" H 4000 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 2250 60  0001 C CNN
@@ -108,9 +115,11 @@ Connection ~ 4300 2250
 Wire Wire Line
 	3650 2600 4450 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K4
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K4
 U 1 1 615ADE7D
 P 4800 2250
+AR Path="/615ADE7D" Ref="K4"  Part="1" 
+AR Path="/615A5371/615ADE7D" Ref="K4"  Part="1" 
 F 0 "K4" H 4800 2589 60  0000 C CNN
 F 1 "#3" H 4800 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4800 2250 60  0001 C CNN
@@ -141,9 +150,11 @@ Wire Wire Line
 Connection ~ 4450 2600
 Connection ~ 3650 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K5
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K5
 U 1 1 615B18ED
 P 5600 2250
+AR Path="/615B18ED" Ref="K5"  Part="1" 
+AR Path="/615A5371/615B18ED" Ref="K5"  Part="1" 
 F 0 "K5" H 5600 2589 60  0000 C CNN
 F 1 "#4" H 5600 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5600 2250 60  0001 C CNN
@@ -172,9 +183,11 @@ Connection ~ 5900 2250
 Wire Wire Line
 	5250 2600 6050 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K6
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K6
 U 1 1 615B1907
 P 6400 2250
+AR Path="/615B1907" Ref="K6"  Part="1" 
+AR Path="/615A5371/615B1907" Ref="K6"  Part="1" 
 F 0 "K6" H 6400 2589 60  0000 C CNN
 F 1 "#5" H 6400 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6400 2250 60  0001 C CNN
@@ -204,9 +217,11 @@ Wire Wire Line
 	6050 2600 6850 2600
 Connection ~ 6050 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K7
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K7
 U 1 1 615B1922
 P 7200 2250
+AR Path="/615B1922" Ref="K7"  Part="1" 
+AR Path="/615A5371/615B1922" Ref="K7"  Part="1" 
 F 0 "K7" H 7200 2589 60  0000 C CNN
 F 1 "#6" H 7200 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7200 2250 60  0001 C CNN
@@ -235,9 +250,11 @@ Connection ~ 7500 2250
 Wire Wire Line
 	6850 2600 7650 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K8
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K8
 U 1 1 615B193C
 P 8000 2250
+AR Path="/615B193C" Ref="K8"  Part="1" 
+AR Path="/615A5371/615B193C" Ref="K8"  Part="1" 
 F 0 "K8" H 8000 2589 60  0000 C CNN
 F 1 "#7" H 8000 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 2250 60  0001 C CNN
@@ -269,9 +286,11 @@ Connection ~ 7650 2600
 Connection ~ 6850 2600
 Connection ~ 5250 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K9
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K9
 U 1 1 615C001C
 P 8800 2250
+AR Path="/615C001C" Ref="K9"  Part="1" 
+AR Path="/615A5371/615C001C" Ref="K9"  Part="1" 
 F 0 "K9" H 8800 2589 60  0000 C CNN
 F 1 "#8" H 8800 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8800 2250 60  0001 C CNN
@@ -300,9 +319,11 @@ Connection ~ 9100 2250
 Wire Wire Line
 	8450 2600 9250 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K10
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K10
 U 1 1 615C0036
 P 9600 2250
+AR Path="/615C0036" Ref="K10"  Part="1" 
+AR Path="/615A5371/615C0036" Ref="K10"  Part="1" 
 F 0 "K10" H 9600 2589 60  0000 C CNN
 F 1 "#9" H 9600 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9600 2250 60  0001 C CNN
@@ -332,9 +353,11 @@ Wire Wire Line
 	9250 2600 10050 2600
 Connection ~ 9250 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K11
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K11
 U 1 1 615C0051
 P 10400 2250
+AR Path="/615C0051" Ref="K11"  Part="1" 
+AR Path="/615A5371/615C0051" Ref="K11"  Part="1" 
 F 0 "K11" H 10400 2589 60  0000 C CNN
 F 1 "#0" H 10400 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10400 2250 60  0001 C CNN
@@ -363,9 +386,11 @@ Connection ~ 10700 2250
 Wire Wire Line
 	10050 2600 10850 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K12
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K12
 U 1 1 615C006B
 P 11200 2250
+AR Path="/615C006B" Ref="K12"  Part="1" 
+AR Path="/615A5371/615C006B" Ref="K12"  Part="1" 
 F 0 "K12" H 11200 2589 60  0000 C CNN
 F 1 "-_" H 11200 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 2250 60  0001 C CNN
@@ -396,9 +421,11 @@ Wire Wire Line
 Connection ~ 10850 2600
 Connection ~ 10050 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K13
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K13
 U 1 1 615C0087
 P 12000 2250
+AR Path="/615C0087" Ref="K13"  Part="1" 
+AR Path="/615A5371/615C0087" Ref="K13"  Part="1" 
 F 0 "K13" H 12000 2589 60  0000 C CNN
 F 1 "=+" H 12000 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 2250 60  0001 C CNN
@@ -427,9 +454,11 @@ Connection ~ 12300 2250
 Wire Wire Line
 	11650 2600 12450 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K14
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K14
 U 1 1 615C00A1
 P 12800 2250
+AR Path="/615C00A1" Ref="K14"  Part="1" 
+AR Path="/615A5371/615C00A1" Ref="K14"  Part="1" 
 F 0 "K14" H 12800 2589 60  0000 C CNN
 F 1 "BACK" H 12800 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-2U-NoLED" H 12800 2250 60  0001 C CNN
@@ -459,9 +488,11 @@ Wire Wire Line
 	12450 2600 13250 2600
 Connection ~ 12450 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K15
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K15
 U 1 1 615C00BC
 P 13600 2250
+AR Path="/615C00BC" Ref="K15"  Part="1" 
+AR Path="/615A5371/615C00BC" Ref="K15"  Part="1" 
 F 0 "K15" H 13600 2589 60  0000 C CNN
 F 1 "INS" H 13600 2483 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13600 2250 60  0001 C CNN
@@ -495,9 +526,11 @@ Wire Wire Line
 	2050 2600 1750 2600
 Connection ~ 2050 2600
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K16
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K16
 U 1 1 61785F34
 P 2400 3150
+AR Path="/61785F34" Ref="K16"  Part="1" 
+AR Path="/615A5371/61785F34" Ref="K16"  Part="1" 
 F 0 "K16" H 2400 3489 60  0000 C CNN
 F 1 "TAB" H 2400 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-NoLED" H 2400 3150 60  0001 C CNN
@@ -524,9 +557,11 @@ Connection ~ 2700 3150
 Wire Wire Line
 	2050 3500 2850 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K17
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K17
 U 1 1 61785F45
 P 3200 3150
+AR Path="/61785F45" Ref="K17"  Part="1" 
+AR Path="/615A5371/61785F45" Ref="K17"  Part="1" 
 F 0 "K17" H 3200 3489 60  0000 C CNN
 F 1 "Q" H 3200 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3200 3150 60  0001 C CNN
@@ -554,9 +589,11 @@ Wire Wire Line
 	2850 3500 3650 3500
 Connection ~ 2850 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K18
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K18
 U 1 1 61785F57
 P 4000 3150
+AR Path="/61785F57" Ref="K18"  Part="1" 
+AR Path="/615A5371/61785F57" Ref="K18"  Part="1" 
 F 0 "K18" H 4000 3489 60  0000 C CNN
 F 1 "W" H 4000 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 3150 60  0001 C CNN
@@ -583,9 +620,11 @@ Connection ~ 4300 3150
 Wire Wire Line
 	3650 3500 4450 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K19
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K19
 U 1 1 61785F68
 P 4800 3150
+AR Path="/61785F68" Ref="K19"  Part="1" 
+AR Path="/615A5371/61785F68" Ref="K19"  Part="1" 
 F 0 "K19" H 4800 3489 60  0000 C CNN
 F 1 "E" H 4800 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4800 3150 60  0001 C CNN
@@ -614,9 +653,11 @@ Wire Wire Line
 Connection ~ 4450 3500
 Connection ~ 3650 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K20
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K20
 U 1 1 61785F7B
 P 5600 3150
+AR Path="/61785F7B" Ref="K20"  Part="1" 
+AR Path="/615A5371/61785F7B" Ref="K20"  Part="1" 
 F 0 "K20" H 5600 3489 60  0000 C CNN
 F 1 "R" H 5600 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5600 3150 60  0001 C CNN
@@ -643,9 +684,11 @@ Connection ~ 5900 3150
 Wire Wire Line
 	5250 3500 6050 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K21
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K21
 U 1 1 61785F8C
 P 6400 3150
+AR Path="/61785F8C" Ref="K21"  Part="1" 
+AR Path="/615A5371/61785F8C" Ref="K21"  Part="1" 
 F 0 "K21" H 6400 3489 60  0000 C CNN
 F 1 "T" H 6400 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6400 3150 60  0001 C CNN
@@ -673,9 +716,11 @@ Wire Wire Line
 	6050 3500 6850 3500
 Connection ~ 6050 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K22
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K22
 U 1 1 61785F9E
 P 7200 3150
+AR Path="/61785F9E" Ref="K22"  Part="1" 
+AR Path="/615A5371/61785F9E" Ref="K22"  Part="1" 
 F 0 "K22" H 7200 3489 60  0000 C CNN
 F 1 "Y" H 7200 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7200 3150 60  0001 C CNN
@@ -702,9 +747,11 @@ Connection ~ 7500 3150
 Wire Wire Line
 	6850 3500 7650 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K23
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K23
 U 1 1 61785FAF
 P 8000 3150
+AR Path="/61785FAF" Ref="K23"  Part="1" 
+AR Path="/615A5371/61785FAF" Ref="K23"  Part="1" 
 F 0 "K23" H 8000 3489 60  0000 C CNN
 F 1 "U" H 8000 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 3150 60  0001 C CNN
@@ -734,9 +781,11 @@ Connection ~ 7650 3500
 Connection ~ 6850 3500
 Connection ~ 5250 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K24
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K24
 U 1 1 61785FC3
 P 8800 3150
+AR Path="/61785FC3" Ref="K24"  Part="1" 
+AR Path="/615A5371/61785FC3" Ref="K24"  Part="1" 
 F 0 "K24" H 8800 3489 60  0000 C CNN
 F 1 "I" H 8800 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8800 3150 60  0001 C CNN
@@ -763,9 +812,11 @@ Connection ~ 9100 3150
 Wire Wire Line
 	8450 3500 9250 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K25
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K25
 U 1 1 61785FD4
 P 9600 3150
+AR Path="/61785FD4" Ref="K25"  Part="1" 
+AR Path="/615A5371/61785FD4" Ref="K25"  Part="1" 
 F 0 "K25" H 9600 3489 60  0000 C CNN
 F 1 "O" H 9600 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9600 3150 60  0001 C CNN
@@ -793,9 +844,11 @@ Wire Wire Line
 	9250 3500 10050 3500
 Connection ~ 9250 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K26
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K26
 U 1 1 61785FE6
 P 10400 3150
+AR Path="/61785FE6" Ref="K26"  Part="1" 
+AR Path="/615A5371/61785FE6" Ref="K26"  Part="1" 
 F 0 "K26" H 10400 3489 60  0000 C CNN
 F 1 "P" H 10400 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10400 3150 60  0001 C CNN
@@ -822,9 +875,11 @@ Connection ~ 10700 3150
 Wire Wire Line
 	10050 3500 10850 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K27
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K27
 U 1 1 61785FF7
 P 11200 3150
+AR Path="/61785FF7" Ref="K27"  Part="1" 
+AR Path="/615A5371/61785FF7" Ref="K27"  Part="1" 
 F 0 "K27" H 11200 3489 60  0000 C CNN
 F 1 "{[" H 11200 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 3150 60  0001 C CNN
@@ -853,9 +908,11 @@ Wire Wire Line
 Connection ~ 10850 3500
 Connection ~ 10050 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K28
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K28
 U 1 1 6178600A
 P 12000 3150
+AR Path="/6178600A" Ref="K28"  Part="1" 
+AR Path="/615A5371/6178600A" Ref="K28"  Part="1" 
 F 0 "K28" H 12000 3489 60  0000 C CNN
 F 1 "]}" H 12000 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 3150 60  0001 C CNN
@@ -882,9 +939,11 @@ Connection ~ 12300 3150
 Wire Wire Line
 	11650 3500 12450 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K29
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K29
 U 1 1 6178601B
 P 12800 3150
+AR Path="/6178601B" Ref="K29"  Part="1" 
+AR Path="/615A5371/6178601B" Ref="K29"  Part="1" 
 F 0 "K29" H 12800 3489 60  0000 C CNN
 F 1 "\\|" H 12800 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.5U-NoLED" H 12800 3150 60  0001 C CNN
@@ -912,9 +971,11 @@ Wire Wire Line
 	12450 3500 13250 3500
 Connection ~ 12450 3500
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K30
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K30
 U 1 1 6178602D
 P 13600 3150
+AR Path="/6178602D" Ref="K30"  Part="1" 
+AR Path="/615A5371/6178602D" Ref="K30"  Part="1" 
 F 0 "K30" H 13600 3489 60  0000 C CNN
 F 1 "DEL" H 13600 3383 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13600 3150 60  0001 C CNN
@@ -976,9 +1037,11 @@ Wire Wire Line
 Wire Wire Line
 	2700 2250 2700 3150
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K31
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K31
 U 1 1 6179DD69
 P 2400 4050
+AR Path="/6179DD69" Ref="K31"  Part="1" 
+AR Path="/615A5371/6179DD69" Ref="K31"  Part="1" 
 F 0 "K31" H 2400 4389 60  0000 C CNN
 F 1 "CAPSLOCK" H 2400 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.75U-NoLED" H 2400 4050 60  0001 C CNN
@@ -1003,9 +1066,11 @@ F 3 "~" H 2050 4250 50  0001 C CNN
 $EndComp
 Connection ~ 2700 4050
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K32
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K32
 U 1 1 6179DD8C
 P 4000 4050
+AR Path="/6179DD8C" Ref="K32"  Part="1" 
+AR Path="/615A5371/6179DD8C" Ref="K32"  Part="1" 
 F 0 "K32" H 4000 4389 60  0000 C CNN
 F 1 "A" H 4000 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 4050 60  0001 C CNN
@@ -1032,9 +1097,11 @@ Connection ~ 4300 4050
 Wire Wire Line
 	3650 4400 4450 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K33
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K33
 U 1 1 6179DD9D
 P 4800 4050
+AR Path="/6179DD9D" Ref="K33"  Part="1" 
+AR Path="/615A5371/6179DD9D" Ref="K33"  Part="1" 
 F 0 "K33" H 4800 4389 60  0000 C CNN
 F 1 "S" H 4800 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4800 4050 60  0001 C CNN
@@ -1063,9 +1130,11 @@ Wire Wire Line
 Connection ~ 4450 4400
 Connection ~ 3650 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K34
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K34
 U 1 1 6179DDB0
 P 5600 4050
+AR Path="/6179DDB0" Ref="K34"  Part="1" 
+AR Path="/615A5371/6179DDB0" Ref="K34"  Part="1" 
 F 0 "K34" H 5600 4389 60  0000 C CNN
 F 1 "D" H 5600 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5600 4050 60  0001 C CNN
@@ -1092,9 +1161,11 @@ Connection ~ 5900 4050
 Wire Wire Line
 	5250 4400 6050 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K35
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K35
 U 1 1 6179DDC1
 P 6400 4050
+AR Path="/6179DDC1" Ref="K35"  Part="1" 
+AR Path="/615A5371/6179DDC1" Ref="K35"  Part="1" 
 F 0 "K35" H 6400 4389 60  0000 C CNN
 F 1 "F" H 6400 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6400 4050 60  0001 C CNN
@@ -1122,9 +1193,11 @@ Wire Wire Line
 	6050 4400 6850 4400
 Connection ~ 6050 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K36
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K36
 U 1 1 6179DDD3
 P 7200 4050
+AR Path="/6179DDD3" Ref="K36"  Part="1" 
+AR Path="/615A5371/6179DDD3" Ref="K36"  Part="1" 
 F 0 "K36" H 7200 4389 60  0000 C CNN
 F 1 "G" H 7200 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7200 4050 60  0001 C CNN
@@ -1151,9 +1224,11 @@ Connection ~ 7500 4050
 Wire Wire Line
 	6850 4400 7650 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K37
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K37
 U 1 1 6179DDE4
 P 8000 4050
+AR Path="/6179DDE4" Ref="K37"  Part="1" 
+AR Path="/615A5371/6179DDE4" Ref="K37"  Part="1" 
 F 0 "K37" H 8000 4389 60  0000 C CNN
 F 1 "H" H 8000 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 4050 60  0001 C CNN
@@ -1183,9 +1258,11 @@ Connection ~ 7650 4400
 Connection ~ 6850 4400
 Connection ~ 5250 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K38
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K38
 U 1 1 6179DDF8
 P 8800 4050
+AR Path="/6179DDF8" Ref="K38"  Part="1" 
+AR Path="/615A5371/6179DDF8" Ref="K38"  Part="1" 
 F 0 "K38" H 8800 4389 60  0000 C CNN
 F 1 "J" H 8800 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8800 4050 60  0001 C CNN
@@ -1212,9 +1289,11 @@ Connection ~ 9100 4050
 Wire Wire Line
 	8450 4400 9250 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K39
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K39
 U 1 1 6179DE09
 P 9600 4050
+AR Path="/6179DE09" Ref="K39"  Part="1" 
+AR Path="/615A5371/6179DE09" Ref="K39"  Part="1" 
 F 0 "K39" H 9600 4389 60  0000 C CNN
 F 1 "K" H 9600 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9600 4050 60  0001 C CNN
@@ -1242,9 +1321,11 @@ Wire Wire Line
 	9250 4400 10050 4400
 Connection ~ 9250 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K40
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K40
 U 1 1 6179DE1B
 P 10400 4050
+AR Path="/6179DE1B" Ref="K40"  Part="1" 
+AR Path="/615A5371/6179DE1B" Ref="K40"  Part="1" 
 F 0 "K40" H 10400 4389 60  0000 C CNN
 F 1 "L" H 10400 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10400 4050 60  0001 C CNN
@@ -1271,9 +1352,11 @@ Connection ~ 10700 4050
 Wire Wire Line
 	10050 4400 10850 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K41
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K41
 U 1 1 6179DE2C
 P 11200 4050
+AR Path="/6179DE2C" Ref="K41"  Part="1" 
+AR Path="/615A5371/6179DE2C" Ref="K41"  Part="1" 
 F 0 "K41" H 11200 4389 60  0000 C CNN
 F 1 ";:" H 11200 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 4050 60  0001 C CNN
@@ -1300,9 +1383,11 @@ Connection ~ 11500 4050
 Connection ~ 10850 4400
 Connection ~ 10050 4400
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K43
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K43
 U 1 1 6179DE50
 P 12800 4050
+AR Path="/6179DE50" Ref="K43"  Part="1" 
+AR Path="/615A5371/6179DE50" Ref="K43"  Part="1" 
 F 0 "K43" H 12800 4389 60  0000 C CNN
 F 1 "ENTER" H 12800 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-2.25U-NoLED" H 12800 4050 60  0001 C CNN
@@ -1357,9 +1442,11 @@ Wire Wire Line
 Wire Wire Line
 	2700 3150 2700 4050
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K44
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K44
 U 1 1 617BFD18
 P 2400 4950
+AR Path="/617BFD18" Ref="K44"  Part="1" 
+AR Path="/615A5371/617BFD18" Ref="K44"  Part="1" 
 F 0 "K44" H 2400 5289 60  0000 C CNN
 F 1 "LSHIFT" H 2400 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-2.25U-NoLED" H 2400 4950 60  0001 C CNN
@@ -1384,9 +1471,11 @@ F 3 "~" H 2050 5150 50  0001 C CNN
 $EndComp
 Connection ~ 2700 4950
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K45
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K45
 U 1 1 617BFD3B
 P 4000 4950
+AR Path="/617BFD3B" Ref="K45"  Part="1" 
+AR Path="/615A5371/617BFD3B" Ref="K45"  Part="1" 
 F 0 "K45" H 4000 5289 60  0000 C CNN
 F 1 "Z" H 4000 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4000 4950 60  0001 C CNN
@@ -1413,9 +1502,11 @@ Connection ~ 4300 4950
 Wire Wire Line
 	3650 5300 4450 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K46
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K46
 U 1 1 617BFD4C
 P 4800 4950
+AR Path="/617BFD4C" Ref="K46"  Part="1" 
+AR Path="/615A5371/617BFD4C" Ref="K46"  Part="1" 
 F 0 "K46" H 4800 5289 60  0000 C CNN
 F 1 "X" H 4800 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 4800 4950 60  0001 C CNN
@@ -1443,9 +1534,11 @@ Wire Wire Line
 Connection ~ 4450 5300
 Connection ~ 3650 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K47
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K47
 U 1 1 617BFD5F
 P 5600 4950
+AR Path="/617BFD5F" Ref="K47"  Part="1" 
+AR Path="/615A5371/617BFD5F" Ref="K47"  Part="1" 
 F 0 "K47" H 5600 5289 60  0000 C CNN
 F 1 "C" H 5600 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 5600 4950 60  0001 C CNN
@@ -1471,9 +1564,11 @@ $EndComp
 Wire Wire Line
 	5250 5300 6050 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K48
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K48
 U 1 1 617BFD70
 P 6400 4950
+AR Path="/617BFD70" Ref="K48"  Part="1" 
+AR Path="/615A5371/617BFD70" Ref="K48"  Part="1" 
 F 0 "K48" H 6400 5289 60  0000 C CNN
 F 1 "V" H 6400 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 6400 4950 60  0001 C CNN
@@ -1500,9 +1595,11 @@ Wire Wire Line
 	6050 5300 6850 5300
 Connection ~ 6050 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K49
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K49
 U 1 1 617BFD82
 P 7200 4950
+AR Path="/617BFD82" Ref="K49"  Part="1" 
+AR Path="/615A5371/617BFD82" Ref="K49"  Part="1" 
 F 0 "K49" H 7200 5289 60  0000 C CNN
 F 1 "B" H 7200 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 7200 4950 60  0001 C CNN
@@ -1529,9 +1626,11 @@ Connection ~ 7500 4950
 Wire Wire Line
 	6850 5300 7650 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K50
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K50
 U 1 1 617BFD93
 P 8000 4950
+AR Path="/617BFD93" Ref="K50"  Part="1" 
+AR Path="/615A5371/617BFD93" Ref="K50"  Part="1" 
 F 0 "K50" H 8000 5289 60  0000 C CNN
 F 1 "N" H 8000 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8000 4950 60  0001 C CNN
@@ -1560,9 +1659,11 @@ Connection ~ 7650 5300
 Connection ~ 6850 5300
 Connection ~ 5250 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K51
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K51
 U 1 1 617BFDA7
 P 8800 4950
+AR Path="/617BFDA7" Ref="K51"  Part="1" 
+AR Path="/615A5371/617BFDA7" Ref="K51"  Part="1" 
 F 0 "K51" H 8800 5289 60  0000 C CNN
 F 1 "M" H 8800 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 8800 4950 60  0001 C CNN
@@ -1588,9 +1689,11 @@ $EndComp
 Wire Wire Line
 	8450 5300 9250 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K52
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K52
 U 1 1 617BFDB8
 P 9600 4950
+AR Path="/617BFDB8" Ref="K52"  Part="1" 
+AR Path="/615A5371/617BFDB8" Ref="K52"  Part="1" 
 F 0 "K52" H 9600 5289 60  0000 C CNN
 F 1 ",<" H 9600 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 9600 4950 60  0001 C CNN
@@ -1618,9 +1721,11 @@ Wire Wire Line
 	9250 5300 10050 5300
 Connection ~ 9250 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K53
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K53
 U 1 1 617BFDCA
 P 10400 4950
+AR Path="/617BFDCA" Ref="K53"  Part="1" 
+AR Path="/615A5371/617BFDCA" Ref="K53"  Part="1" 
 F 0 "K53" H 10400 5289 60  0000 C CNN
 F 1 ".>" H 10400 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 10400 4950 60  0001 C CNN
@@ -1647,9 +1752,11 @@ Connection ~ 10700 4950
 Wire Wire Line
 	10050 5300 10850 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K54
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K54
 U 1 1 617BFDDB
 P 11200 4950
+AR Path="/617BFDDB" Ref="K54"  Part="1" 
+AR Path="/615A5371/617BFDDB" Ref="K54"  Part="1" 
 F 0 "K54" H 11200 5289 60  0000 C CNN
 F 1 "/?" H 11200 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 11200 4950 60  0001 C CNN
@@ -1678,9 +1785,11 @@ Wire Wire Line
 Connection ~ 10850 5300
 Connection ~ 10050 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K55
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K55
 U 1 1 617BFDEE
 P 12000 4950
+AR Path="/617BFDEE" Ref="K55"  Part="1" 
+AR Path="/615A5371/617BFDEE" Ref="K55"  Part="1" 
 F 0 "K55" H 12000 5289 60  0000 C CNN
 F 1 "RSHIFT" H 12000 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-2.25U-NoLED" H 12000 4950 60  0001 C CNN
@@ -1707,9 +1816,11 @@ Connection ~ 12300 4950
 Wire Wire Line
 	11650 5300 12450 5300
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K56
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K56
 U 1 1 617BFDFF
 P 12800 4950
+AR Path="/617BFDFF" Ref="K56"  Part="1" 
+AR Path="/615A5371/617BFDFF" Ref="K56"  Part="1" 
 F 0 "K56" H 12800 5289 60  0000 C CNN
 F 1 "UP" H 12800 5183 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 12800 4950 60  0001 C CNN
@@ -1765,9 +1876,11 @@ Wire Wire Line
 Wire Wire Line
 	2700 4050 2700 4950
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K57
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K57
 U 1 1 617DF187
 P 2400 5850
+AR Path="/617DF187" Ref="K57"  Part="1" 
+AR Path="/615A5371/617DF187" Ref="K57"  Part="1" 
 F 0 "K57" H 2400 6189 60  0000 C CNN
 F 1 "LCTRL" H 2400 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 2400 5850 60  0001 C CNN
@@ -1793,9 +1906,11 @@ $EndComp
 Wire Wire Line
 	2050 6200 2850 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K58
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K58
 U 1 1 617DF198
 P 3200 5850
+AR Path="/617DF198" Ref="K58"  Part="1" 
+AR Path="/615A5371/617DF198" Ref="K58"  Part="1" 
 F 0 "K58" H 3200 6189 60  0000 C CNN
 F 1 "LCOMMAND" H 3200 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 3200 5850 60  0001 C CNN
@@ -1822,9 +1937,11 @@ Wire Wire Line
 	2850 6200 3650 6200
 Connection ~ 2850 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K59
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K59
 U 1 1 617DF1AA
 P 4000 5850
+AR Path="/617DF1AA" Ref="K59"  Part="1" 
+AR Path="/615A5371/617DF1AA" Ref="K59"  Part="1" 
 F 0 "K59" H 4000 6189 60  0000 C CNN
 F 1 "LALT" H 4000 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 4000 5850 60  0001 C CNN
@@ -1849,9 +1966,11 @@ F 3 "~" H 3650 6050 50  0001 C CNN
 $EndComp
 Connection ~ 3650 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K60
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K60
 U 1 1 617DF1F1
 P 7200 5850
+AR Path="/617DF1F1" Ref="K60"  Part="1" 
+AR Path="/615A5371/617DF1F1" Ref="K60"  Part="1" 
 F 0 "K60" H 7200 6189 60  0000 C CNN
 F 1 "SPACE" H 7200 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-6.25U-NoLED" H 7200 5850 60  0001 C CNN
@@ -1876,9 +1995,11 @@ F 3 "~" H 6850 6050 50  0001 C CNN
 $EndComp
 Connection ~ 6850 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K61
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K61
 U 1 1 617DF227
 P 9600 5850
+AR Path="/617DF227" Ref="K61"  Part="1" 
+AR Path="/615A5371/617DF227" Ref="K61"  Part="1" 
 F 0 "K61" H 9600 6189 60  0000 C CNN
 F 1 "RALT" H 9600 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 9600 5850 60  0001 C CNN
@@ -1905,9 +2026,11 @@ Wire Wire Line
 	9250 6200 10050 6200
 Connection ~ 9250 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K62
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K62
 U 1 1 617DF239
 P 10400 5850
+AR Path="/617DF239" Ref="K62"  Part="1" 
+AR Path="/615A5371/617DF239" Ref="K62"  Part="1" 
 F 0 "K62" H 10400 6189 60  0000 C CNN
 F 1 "RCOMMAND" H 10400 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 10400 5850 60  0001 C CNN
@@ -1933,9 +2056,11 @@ $EndComp
 Wire Wire Line
 	10050 6200 10850 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K63
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K63
 U 1 1 617DF24A
 P 11200 5850
+AR Path="/617DF24A" Ref="K63"  Part="1" 
+AR Path="/615A5371/617DF24A" Ref="K63"  Part="1" 
 F 0 "K63" H 11200 6189 60  0000 C CNN
 F 1 "RCTRL" H 11200 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1.25U-NoLED" H 11200 5850 60  0001 C CNN
@@ -1963,9 +2088,11 @@ Wire Wire Line
 Connection ~ 10850 6200
 Connection ~ 10050 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K64
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K64
 U 1 1 617DF25D
 P 12000 5850
+AR Path="/617DF25D" Ref="K64"  Part="1" 
+AR Path="/615A5371/617DF25D" Ref="K64"  Part="1" 
 F 0 "K64" H 12000 6189 60  0000 C CNN
 F 1 "LEFT" H 12000 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 5850 60  0001 C CNN
@@ -1991,9 +2118,11 @@ $EndComp
 Wire Wire Line
 	11650 6200 12450 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K65
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K65
 U 1 1 617DF26E
 P 12800 5850
+AR Path="/617DF26E" Ref="K65"  Part="1" 
+AR Path="/615A5371/617DF26E" Ref="K65"  Part="1" 
 F 0 "K65" H 12800 6189 60  0000 C CNN
 F 1 "DOWN" H 12800 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 12800 5850 60  0001 C CNN
@@ -2020,9 +2149,11 @@ Wire Wire Line
 	12450 6200 13250 6200
 Connection ~ 12450 6200
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K66
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K66
 U 1 1 617DF280
 P 13600 5850
+AR Path="/617DF280" Ref="K66"  Part="1" 
+AR Path="/615A5371/617DF280" Ref="K66"  Part="1" 
 F 0 "K66" H 13600 6189 60  0000 C CNN
 F 1 "RIGHT" H 13600 6083 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 13600 5850 60  0001 C CNN
@@ -2131,9 +2262,11 @@ Wire Wire Line
 	12300 3150 12300 4050
 Connection ~ 12300 4050
 $Comp
-L aek67-cache:keyboard_parts_KEYSW K42
+L CrowMiniMk2-rescue:keyboard_parts_KEYSW-aek67-cache K42
 U 1 1 6179DE3F
 P 12000 4050
+AR Path="/6179DE3F" Ref="K42"  Part="1" 
+AR Path="/615A5371/6179DE3F" Ref="K42"  Part="1" 
 F 0 "K42" H 12000 4389 60  0000 C CNN
 F 1 "'\"" H 12000 4283 60  0000 C CNN
 F 2 "MX_Only:MXOnly-1U-NoLED" H 12000 4050 60  0001 C CNN

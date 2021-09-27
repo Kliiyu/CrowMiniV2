@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CrowMiniMk2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -201,64 +202,46 @@ Wire Wire Line
 	3400 1050 3400 1000
 Wire Wire Line
 	3400 1000 3750 1000
-Wire Wire Line
-	4800 1000 4800 1050
-Wire Wire Line
-	4450 1000 4450 1050
-Connection ~ 4450 1000
-Wire Wire Line
-	4450 1000 4800 1000
 Connection ~ 4100 1000
-Wire Wire Line
-	4100 1000 4450 1000
 Wire Wire Line
 	3750 1050 3750 1000
 Connection ~ 3750 1000
 Wire Wire Line
-	3750 1000 4100 1000
+	3750 1000 3900 1000
 Wire Wire Line
 	3400 1250 3400 1300
 Wire Wire Line
 	3400 1300 3750 1300
-Wire Wire Line
-	4800 1300 4800 1250
-Wire Wire Line
-	4450 1250 4450 1300
-Connection ~ 4450 1300
-Wire Wire Line
-	4450 1300 4800 1300
 Connection ~ 4100 1300
-Wire Wire Line
-	4100 1300 4450 1300
 Wire Wire Line
 	3750 1250 3750 1300
 Connection ~ 3750 1300
 Wire Wire Line
-	3750 1300 4100 1300
+	3750 1300 3900 1300
 Wire Wire Line
-	4100 1000 4100 900 
+	3900 1000 3900 900 
 Wire Wire Line
-	4100 1300 4100 1400
+	3900 1300 3900 1400
 $Comp
 L power:GND #PWR0106
 U 1 1 61532139
-P 4100 1400
-F 0 "#PWR0106" H 4100 1150 50  0001 C CNN
-F 1 "GND" H 4105 1227 50  0000 C CNN
-F 2 "" H 4100 1400 50  0001 C CNN
-F 3 "" H 4100 1400 50  0001 C CNN
-	1    4100 1400
+P 3900 1400
+F 0 "#PWR0106" H 3900 1150 50  0001 C CNN
+F 1 "GND" H 3905 1227 50  0000 C CNN
+F 2 "" H 3900 1400 50  0001 C CNN
+F 3 "" H 3900 1400 50  0001 C CNN
+	1    3900 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0107
 U 1 1 61532DEE
-P 4100 900
-F 0 "#PWR0107" H 4100 750 50  0001 C CNN
-F 1 "+5V" H 4115 1073 50  0000 C CNN
-F 2 "" H 4100 900 50  0001 C CNN
-F 3 "" H 4100 900 50  0001 C CNN
-	1    4100 900 
+P 3900 900
+F 0 "#PWR0107" H 3900 750 50  0001 C CNN
+F 1 "+5V" H 3915 1073 50  0000 C CNN
+F 2 "" H 3900 900 50  0001 C CNN
+F 3 "" H 3900 900 50  0001 C CNN
+	1    3900 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -643,13 +626,13 @@ COL14
 NoConn ~ 3500 2550
 Text GLabel 3500 4050 2    50   Input ~ 0
 ROW0
-Text GLabel 3500 4250 2    50   Input ~ 0
-ROW2
 Text GLabel 3500 4350 2    50   Input ~ 0
-ROW3
+ROW2
 Text GLabel 3500 4450 2    50   Input ~ 0
-ROW4
+ROW3
 Text GLabel 3500 4550 2    50   Input ~ 0
+ROW4
+Text GLabel 3500 4250 2    50   Input ~ 0
 ROW1
 Text GLabel 3500 4650 2    50   Input ~ 0
 COL5
@@ -766,20 +749,9 @@ $EndComp
 $Comp
 L Device:C_Small C5
 U 1 1 615241AC
-P 4800 1150
-F 0 "C5" H 4650 1250 50  0000 L CNN
-F 1 "10u" H 4600 1050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4800 1150 50  0001 C CNN
-F 3 "~" H 4800 1150 50  0001 C CNN
-	1    4800 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 61521C69
 P 4450 1150
-F 0 "C4" H 4300 1250 50  0000 L CNN
-F 1 "0.1u" H 4250 1050 50  0000 L CNN
+F 0 "C5" H 4300 1250 50  0000 L CNN
+F 1 "10u" H 4250 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4450 1150 50  0001 C CNN
 F 3 "~" H 4450 1150 50  0001 C CNN
 	1    4450 1150
@@ -789,6 +761,10 @@ Wire Wire Line
 	4100 1250 4100 1300
 Wire Wire Line
 	4100 1050 4100 1000
+Text GLabel 7800 2200 1    50   Input ~ 0
+DN
+Text GLabel 7800 2300 3    50   Input ~ 0
+DP
 $Comp
 L Device:C_Small C3
 U 1 1 615217E9
@@ -800,8 +776,18 @@ F 3 "~" H 4100 1150 50  0001 C CNN
 	1    4100 1150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7800 2200 1    50   Input ~ 0
-DN
-Text GLabel 7800 2300 3    50   Input ~ 0
-DP
+Wire Wire Line
+	4100 1000 4450 1000
+Wire Wire Line
+	4450 1000 4450 1050
+Wire Wire Line
+	4450 1250 4450 1300
+Wire Wire Line
+	4450 1300 4100 1300
+Connection ~ 3900 1000
+Wire Wire Line
+	3900 1000 4100 1000
+Connection ~ 3900 1300
+Wire Wire Line
+	3900 1300 4100 1300
 $EndSCHEMATC
