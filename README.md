@@ -1,4 +1,4 @@
-# CrowMiniV2 (CRW66)
+# CrowMiniV2 (CRoW66)
 
 Crow Mini is a mechanical keyboard with 66 keys.
 
